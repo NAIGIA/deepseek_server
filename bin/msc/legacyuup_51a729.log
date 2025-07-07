@@ -1,0 +1,131 @@
+============================================================
+Time  2025/07/06 22:27:33 183 
+============================================================
+[2025/07/06 22:27:33 183] legacyuup  324  SYS_MSG_LOAD  
+[2025/07/06 22:27:33 184] legacyuup  237  UUP_MSG_START  
+[2025/07/06 22:27:33 184] legacyuup  239  legacyuup  legacyuup_51a729  268436457  1573471853  
+[2025/07/06 22:27:33 184] legacyuup  282  User set url is   nil  
+[2025/07/06 22:27:33 184] transport  645  paramkvsport is   nil  
+[2025/07/06 22:27:33 184] transport  657  ns_enable=  1  
+[2025/07/06 22:27:33 184] transport  659  2017-08--24 is_ns_need_close =   nil  
+[2025/07/06 22:27:33 184] transport  665  net.nettype=  unknown  
+[2025/07/06 22:27:33 184] transport  675  url.full=  nil  
+[2025/07/06 22:27:33 184] transport  680  server_url_host=, server_url_port=, server_url_path=  open.xf-yun.com  nil  /msp.do  
+[2025/07/06 22:27:33 184] transport  907  net type:  unknown  
+[2025/07/06 22:27:33 184] transport  908  net operator:  def  
+[2025/07/06 22:27:33 184] transport  909  use proxy:  false  
+[2025/07/06 22:27:33 184] legacyuup  299  not login!  
+[2025/07/06 22:27:33 315] legacyuup  313  UUP_MSG_LGI_RESULT  
+[2025/07/06 22:27:33 315] legacyuup  193  [session] send uup request  
+[2025/07/06 22:27:33 315] transport  1105 session.domain=  open.xf-yun.com  
+[2025/07/06 22:27:33 315] transport  1106 url.host=  open.xf-yun.com  
+[2025/07/06 22:27:33 315] transport  1083 NAMESERVER START  
+[2025/07/06 22:27:33 315] transport  1086 name =   asr  
+[2025/07/06 22:27:33 315] ns         634  ntt=  unknown  
+[2025/07/06 22:27:33 316] transport  1089 trans,ns_inprog =  0  
+[2025/07/06 22:27:33 316] ns         582  name server start  
+[2025/07/06 22:27:33 316] ns         588  ns_sub =   asr  
+[2025/07/06 22:27:33 316] ns         596  ns_host =   open.xf-yun.com  
+[2025/07/06 22:27:33 316] ns         475  ns_host=  open.xf-yun.com  
+[2025/07/06 22:27:33 316] ns         555  net_type =  standard  
+[2025/07/06 22:27:33 316] ns         556  cmwapascmnet =  
+[2025/07/06 22:27:33 316] ns         557  uniwapasuninet =  
+[2025/07/06 22:27:33 316] ns         558  ctwapasctnet =  
+[2025/07/06 22:27:33 316] ns         576  host=  hdns.xf-yun.com  
+[2025/07/06 22:27:33 316] network    263  gethostbyname  hdns.xf-yun.com  ns1  
+[2025/07/06 22:27:33 316] legacyuup  150  lver:  nil  
+[2025/07/06 22:27:33 316] legacyuup  155  cfg_ver:  nil  
+[2025/07/06 22:27:33 316] transport  1860 transport_obj.send | in  
+[2025/07/06 22:27:33 316] transport  1866 self.msg_flag_q  table(58008480) 
+[2025/07/06 22:27:33 316] transport  1867 self.msg_q  table(58055730) 
+[2025/07/06 22:27:33 316] transport  1799 transport_obj.try2send | in  
+[2025/07/06 22:27:33 316] transport  1800 self.soc  nil  
+[2025/07/06 22:27:33 316] transport  1801 self.connected  false  
+[2025/07/06 22:27:33 316] transport  1802 self.latesterr  0  
+[2025/07/06 22:27:33 317] transport  1873 transport_obj.send | out  
+[2025/07/06 22:27:33 317] network    245  dns resp  0  ns1  
+[2025/07/06 22:27:33 317] ns         422  ns dns ok  101.200.180.128  
+[2025/07/06 22:27:33 317] ns         202  iplist not avail  
+[2025/07/06 22:27:33 317] ns         429  is_voicecloud_ip=  0  
+[2025/07/06 22:27:33 317] ns         436  ip_is_expected=  true  
+[2025/07/06 22:27:33 317] ns         444  ip_is_expected=  true  
+[2025/07/06 22:27:33 318] network    445  gethttpresp2  101.200.180.128  80  ns2  
+[2025/07/06 22:27:33 318] network    465  prot_type  tcp  
+[2025/07/06 22:27:33 318] transport  194  [dns] [1] response 125.254.169.39  
+[2025/07/06 22:27:33 318] transport  202  125  254  169  39  
+[2025/07/06 22:27:33 321] transport  204  ipv =  v4  
+[2025/07/06 22:27:33 322] transport  208  dns ip is v4  
+[2025/07/06 22:27:33 322] transport  130  iplist not avail  
+[2025/07/06 22:27:33 323] transport  247  no iplist now  
+[2025/07/06 22:27:33 323] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  125.254.169.39  
+[2025/07/06 22:27:33 325] transport  291  dns cb start conn  
+[2025/07/06 22:27:33 325] transport  1304 [soc] connect   125.254.169.39  1028  
+[2025/07/06 22:27:33 325] transport  1316 mspsoc.open,prot_type=  tcp  
+[2025/07/06 22:27:33 366] network    350  connected  ns2  
+[2025/07/06 22:27:33 366] transport  473  [soc] [1] connected  
+[2025/07/06 22:27:33 366] transport  1799 transport_obj.try2send | in  
+[2025/07/06 22:27:33 366] transport  1800 self.soc  udata(58056148) 
+[2025/07/06 22:27:33 366] transport  1801 self.connected  true  
+[2025/07/06 22:27:33 366] transport  1802 self.latesterr  0  
+[2025/07/06 22:27:33 366] transport  1819 transport:try2send,#msg_q=  1  
+[2025/07/06 22:27:33 366] transport  1359 build http request.  
+[2025/07/06 22:27:33 367] transport  1476 POST /msp.do HTTP/1.1
+X-Sub: uup
+X-Par: ver=MSSP+0%2E9&sub=uup&cmd=uup&cver=5%2E0%2E44%2E1288&key=0fapmv2oAW^9e72Ex68UE0BSwop^zr4qenvkF^InSKlNo^HBywnTxKrQ4WXATFyhCsmmnaqUMARiCa0/2ncr90/Bmhs5T9hkChmtP9p3K/dPw=
+Host: open.xf-yun.com
+CT: multipart/mixed;boundary=--
+CL: 832
+
+----
+Content-Length:216
+Content-Type:binary/userdata+userword
+Content-Encoding:gzip,encrypt/0.2
+
+Öä™ûÑÓÚÈµn•4x¢ªÅŸCîN≈àv!≈ÒEAΩ®–»¨4>ˇFTKöÉàÿ·äÇäìëü⁄zæœø±ƒ0äÂÊ“@ƒ†W/Ó¯JŸ¬6´/xmú∫ÜëNÂ…HäŒ’¯Jƒ∆%«>≥≈`\˙ÅCwh…TCb’|¬’s My⁄ÿÉï‚Cª∆Ú¬"É';„]CsûµhıX2'Ø-∫snë[˚îT†á‰È}!Çáó2º:Foz êﬂg«òdã»_  
+[2025/07/06 22:27:33 368] transport  1819 transport:try2send,#msg_q=  0  
+[2025/07/06 22:27:33 368] network    353  send ok  268  ns2  
+[2025/07/06 22:27:33 368] transport  482  [soc] [1] send ok  1111  
+[2025/07/06 22:27:33 368] transport  1799 transport_obj.try2send | in  
+[2025/07/06 22:27:33 368] transport  1800 self.soc  udata(58056148) 
+[2025/07/06 22:27:33 368] transport  1801 self.connected  true  
+[2025/07/06 22:27:33 368] transport  1802 self.latesterr  0  
+[2025/07/06 22:27:33 368] transport  1819 transport:try2send,#msg_q=  0  
+[2025/07/06 22:27:33 406] network    362  readable  ns2  
+[2025/07/06 22:27:33 407] network    366  HTTP/1.1 200 OK
+Server: iflytek/hdns
+Date: Sun, 06 Jul 2025 14:27:32 GMT
+Content-Type: application/json
+Content-Length: 314
+Connection: close
+
+{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"asr","ips":[{"ip":"121.37.220.137","port":80,"idc":"gz"},{"ip":"121.37.244.117","port":80,"idc":"gz"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"asr","ips":[{"ip":"121.37.244.117","port":80,"idc":"gz"}],"ttl":6000,"compel":0}]}]}  
+[2025/07/06 22:27:33 407] ns         253  name server http resp  0  
+[2025/07/06 22:27:33 407] ns         266  ns response OK for this time!  
+[2025/07/06 22:27:33 407] ns         277  from_server=  iflytek/hdns  
+[2025/07/06 22:27:33 407] ns         360  compel :  0  
+[2025/07/06 22:27:33 408] transport  1063 ns_ip =   121.37.220.137  
+[2025/07/06 22:27:33 408] transport  1064 ip_type =  assigned_asropen.xf-yun.com_host  
+[2025/07/06 22:27:33 408] ns         670  no data in ns_q  
+[2025/07/06 22:27:33 408] ns         671  conti_ns,ns_inprog =   1  
+[2025/07/06 22:27:33 417] transport  494  [soc] [1] readable  
+[2025/07/06 22:27:33 417] transport  1767 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2025/07/06 22:27:33 379
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E44%2E1288&key=0f2c2X2mdiYtbY3t0lcfeC6kWiXjBwA1vFND87tUH5DvM^HBywnTxKrQ4WXATFyhCsmmnaqUMARiCa0/2ncr90/Bmhs5T9hkChmtP9p3K/dPw=
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2025/07/06 22:27:33 385
+
+0  
+[2025/07/06 22:27:33 417] transport  1494 a_complete_httpmessage  200  
+[2025/07/06 22:27:33 417] transport  1604 is_update  true  
+[2025/07/06 22:27:33 417] transport  1608 port updated  1028  
+[2025/07/06 22:27:33 417] transport  1610 switch  1028  
+[2025/07/06 22:27:33 417] legacyuup  70   [trans] [id = uuplegacyuup_51a729] readable  
+[2025/07/06 22:27:33 418] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  125.254.169.39  
+[2025/07/06 22:27:33 418] transport  981  cached ip is confirmed  
+[2025/07/06 22:27:33 418] transport  1332 [soc] disconnect   
+[2025/07/06 22:27:33 418] transport  991  transport clean  
+[2025/07/06 22:27:33 418] legacyuup  80   uup ok!  
+[2025/07/06 22:27:33 418] legacyuup  333  SYS_MSG_UNLOAD  
