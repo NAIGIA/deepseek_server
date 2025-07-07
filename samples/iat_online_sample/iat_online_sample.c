@@ -286,8 +286,9 @@ void run_iat(const char* audio_file, const char* session_begin_params, int connf
     if (connfd > 0) {
         send(connfd, rec_result, strlen(rec_result) + 1, 0);
 		ask_ollama(rec_result, rec_out, sizeof(rec_out));
+		send(connfd, rec_out, strlen(rec_out) + 1, 0);
 		printf("\n %s \n", rec_out);
-		printf("\n已发送\n");
+		printf("\n已发送识别结果和deepseek回复\n");
         close(connfd);  // ✅ 关闭连接
 
     }
